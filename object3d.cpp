@@ -1,4 +1,4 @@
-//
+//modified by: Derrick Alden
 //author:  Gordon Griesel
 //program: object3d.cpp
 //date:    summer 2014
@@ -341,7 +341,7 @@ void init(void)
 	model->translate(-1.5, 2.4, 0);
 	model->setColor(1, 0, 0);
 	//blender tower
-	tower = buildModel("tower.obj");
+	tower = buildModel("basichouse.obj");
 	tower->scale(0.35);
 	tower->translate(0, 0, 0);
 	tower->setColor(0, 1, 0);
